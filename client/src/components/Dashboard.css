@@ -1,0 +1,91 @@
+#overflowtry{
+    height:55vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  @media (min-width:1718px)
+  {
+   #overflowtry{
+     height:43vh;
+     overflow: hidden;
+     padding-right: 18px;
+     overflow: scroll;
+   }
+   #Fileupload{
+    height:43vh;
+   }
+  }
+#overflowtry::-webkit-scrollbar-track {
+    border: 1px solid rgb(234, 249, 255);
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding-left: 100px;
+  }
+  
+  #overflowtry::-webkit-scrollbar {
+    width: 5px;
+    height: 7px
+  }
+  
+  #overflowtry::-webkit-scrollbar-thumb {
+    
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 10px #ffffff4d;
+    background-color: #c6c6c6;
+    border: 1px solid #ffffff;
+  }
+
+.item {
+  align-items: center;
+  color: #858796;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 36px !important;
+  justify-content: center;
+  width: 100px !important;
+}
+
+.disabled-page {
+  color: #4aa7ff;
+}
+  .pageactive {
+    border-radius: 2px;
+    background-color:#44ce42 ;
+    color: #ffffff;
+  }
+  
+  .next {
+    font-size: 4px;
+    height: 60px;
+    /* position: absolute; */
+    right: 0;
+    width: 150px;
+  }
+  
+  .pagination {
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    height:36px;
+    box-shadow: 0 .20rem 0.5rem 0 rgba(58,59,69,.15);
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+    width: 230px;
+  }
+  
+  .pagination-page {
+    font-weight: 600
+  }
+  
+  .previous {
+    font-size: 4px;
+    height: 60px;
+    left: 0;
+    /* position: absolute; */
+    width: 150px;
+  }
+  
